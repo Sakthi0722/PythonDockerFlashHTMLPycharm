@@ -12,7 +12,7 @@ services:
     image: mysql:5.7
     container_name: "MySQL_Database3"
     ports:
-      - "32000:3306"
+      - "32000:3206"
     environment:
       MYSQL_ROOT_PASSWORD: root
     volumes:
